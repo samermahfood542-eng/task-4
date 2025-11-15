@@ -9,11 +9,11 @@
     background: linear-gradient(rgb(13 110 253 / 14%)) !important;
 }
     .custom-shadow-two{
-        width: 20px;
-        height: 300px;
+        width: 10px !important;
+        height: 300px !important;
         top:50% !important;
-        border-top-right-radius: 50% !important;
-        border-bottom-right-radius: 50% !important;
+        border-top-left-radius: 50% !important;
+        border-bottom-left-radius: 50% !important;
         background: linear-gradient(rgb(13 110 253 / 14%)) !important;
         }
 }
