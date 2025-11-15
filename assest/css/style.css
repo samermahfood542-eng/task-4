@@ -1,0 +1,66 @@
+
+@media screen and (max-width:379px) {
+    .custom-shadow {
+    width:80px !important;
+    height: 100px !important;
+    top: 50%;
+    border-top-right-radius: 20% !important;
+    border-bottom-right-radius: 50%;
+    background: linear-gradient(rgb(13 110 253 / 14%)) !important;
+}
+    .custom-shadow-two{
+        width: 20px;
+        height: 300px;
+        top:50% !important;
+        border-top-right-radius: 50% !important;
+        border-bottom-right-radius: 50% !important;
+        background: linear-gradient(rgb(13 110 253 / 14%)) !important;
+        }
+}
+
+@media screen and (max-width:1920px){
+    .custom-shadow {
+        width: 150px;
+        height: 400px;
+        top: 5% !important;
+        border-top-right-radius: 20% !important;
+        border-bottom-right-radius: 20% !important;
+        background: linear-gradient(rgb(13 110 253 / 14%)) !important;
+        }
+        .custom-shadow-two{
+        width: 150px;
+        height: 400px;
+        top:20% !important;
+        border-top-left-radius: 50% !important;
+        border-bottom-left-radius: 50% !important;
+        background: linear-gradient(rgb(13 110 253 / 14%)) !important;
+        z-index:0;
+        }
+    }
+
+.btn{
+    background-color: #8EADD5;
+}
+.section-title{
+    font-size: 48px !important;
+}
+.section-title2{
+    font-size: 40px !important;
+}
+.carsol{
+    position: relative !important;
+    top: 20% !important;
+}
+.indicator-btn {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.indicator-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 12px  #8EADD5;
+}
+
+.indicator-btn:active {
+    transform: translateY(-2px);
+    box-shadow: 0 2px 6px #8EADD5;
+}
